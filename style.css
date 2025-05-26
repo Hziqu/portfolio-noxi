@@ -332,6 +332,7 @@ p {
     width: 320px;
     height: 300px;
     margin-left: 30px;
+    margin-top: 80px;
 }
 /* Animations */
 @keyframes swing {
@@ -833,7 +834,7 @@ p.animated-text {
     gap: 15px;
     justify-content: center;
     margin: 20px auto;
-    margin-top: -100px;
+    margin-top: -600px;
     opacity: 0;
     transform: translateY(50px);
     will-change: opacity, transform;
@@ -900,7 +901,10 @@ p.animated-text {
 .kontakdanmaps {
     margin-top: 50%;
 }
-
+.texskil {
+    margin-top: 1.3rem;
+    font-size: 20px;
+}
 .sosmet {
     margin-left: 200px;
 }
